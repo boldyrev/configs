@@ -41,7 +41,7 @@ export PATH=$PATH:/Volumes/MyDocs/Users/j0/bin    # May be redundant; check ~/.b
 
 # Change prompt
 PS1_OLD=${PS1}
-export PS1='\[\033[1;34m\]\!\[\033[0m\] \[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m\]\W\[\033[0m\] \[\033[1;92m\]$(__git_ps1 "(%s)")\[\033[0m\]$ '
+export PS1='\[\033[1;35m\]\u\[\033[0m\]:\[\033[1;35m\]\W\[\033[0m\] \[\033[1;92m\]$(__git_ps1 "(%s)")\[\033[0m\]$ '
 
 #PS1='
 #$PWD
