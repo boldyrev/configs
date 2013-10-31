@@ -10,9 +10,11 @@ source ~/bin/git-completion.bash
 source ~/bin/.git-prompt.sh
 
 # git commamands simplified
+alias ga='git add'
+alias gaa='git add .'
 alias gst='git status'
 alias gco='git checkout'
-alias gci='git commit'
+alias gc='git commit'
 alias grb='git rebase'
 alias gbr='git branch'
 alias glg='git log --date-order --all --graph --format="%C(green)%h%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
